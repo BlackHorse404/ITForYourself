@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="./styles/style-index.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.png" />
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>IT For Yourself</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">
+                <img src="./images/logo_transparent.png" alt="logo ITForYourself" class="img-fluid" style="width: 60px;">
+                <span id="IT-logo">IT</span> For Yourself
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <i style="font-size: 30px;" class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" style="justify-content: right;" id="navbarNavDropdown">
+                <ul class="navbar-nav fs-6">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Rules</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Target</a>
+                    </li>
+                    <li class="nav-item dropdown-center">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Members</a></li>
+                            <li><a class="dropdown-item" href="#">Docs</a></li>
+                            <li><a class="dropdown-item" href="#">Forum IT</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item border-left">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+    <div id="introduce" class="container-fluid p-0 topBanner text-white">
+        <div class="container text-center text-md-start">
+            <div class="row row-cols-1 row-cols-md-2 pt-5 justify-content-center">
+                <div id="intro-left" class="col pe-md-5">
+                    <div class="d-flex fitImg justify-content-center justify-content-md-start align-items-center">
+                        <img src="./images/logo.png"  class="d-inline-block fitImg rounded" style="width: 15%; height: 20%;" alt="logo IT For Yourself">
+                        <h1 class="ps-3" style="line-height: 100px;">IT For Yourself</h1>
+                    </div>
+                    <div class="mt-4">
+                        <h2 class="" style="font-size: 45px;">Nhóm Học Tập 5C</h2>
+                        <ul id="intro-list" class="text-start" >
+                            <li>Cùng hợp tác & phát triển bản thân.</li>
+                            <li>Chia sẻ kiến thức & công nghệ.</li>
+                            <li>Cải thiện kỹ năng làm việc nhóm.</li>
+                            <li>Cùng nhau phối hợp hoàn thành các nhiệm vụ.</li>
+                            <li>Cải thiện khả năng làm việc chuyên nghiệp bài bản.</li>
+                        </ul>
+                    </div>
+                    <div id="button-intro">
+                        <button id="btn-join">
+                            <a href="https://zalo.me/g/cqlncx791">
+                                <i class="fa-solid fa-people-group"></i>
+                                Join Teams
+                            </a>
+                        </button>
+                        <button id="btn-contact">
+                            <a href="https://zalo.me/g/cqlncx791">
+                                <i class="fa-solid fa-comments"></i>
+                                Contact
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div id="intro-right" class="col ps-md-5 mt-sm-5">
+                    <div id="video-introduce" class="text-center">
+                        <div id="carouselIntro" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner fitImg">
+                                <div class="carousel-item active">
+                                    <img src="./images/1.jpg" style="border-radius: 20px;" class="fitImg w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/2.jpg" style="border-radius: 20px;" class="fitImg w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/4.jpg" style="border-radius: 20px;" class="fitImg w-100" alt="...">
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                    <div id="video-text">
+                        <p>Watch introduction images and explore more.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end topbanner -->
+    <div id="rules" class="container-fluid">
+        <div class="container text-center text-md-start">
+            <div class="row row-cols-1 row-cols-md-2 justify-content-center">
+                <div class="col pe-md-5">
+                    <div id="rules-img">
+                        <img src="./Smash Illustrations/Ready-to-use Scenes/Svg/Startup.svg" alt="" class="w-100">
+                    </div>
+                </div>
+                <div class="col ps-md-5">
+                    <div id="rules-text" class="text-white">
+                        <h3>Quy Định Dành Cho Thành Viên Của Nhóm</h3>
+                        <ul class="text-start">
+                            <li><span class="text-bg-danger rounded p-1">Không</span> chia sẻ thông tin thành viên nhóm ra ngoài.</li>
+                            <li><span class="text-bg-danger rounded p-1">Không</span> được phép upload file/hình không liên quan việc học.</li>
+                            <li><span class="text-bg-danger rounded p-1">Không</span> được phép bất lịch sự với các thành viên trong nhóm.</li>
+                            <li><span class="text-bg-danger rounded p-1">Không</span> chia sẻ các tài liệu mật của nhóm ra ngoài.</li>
+                            <li><span class="text-bg-danger rounded p-1">Không</span> gây xích mích giữa các thành viên nhóm.</li>
+                            <li><span class="text-bg-danger rounded p-1">Không</span> để con tim che lấp lí trí.</li>
+                            <li><span class="text-bg-warning rounded p-1">Phải</span> làm việc nghiêm túc, đúng tiến độ mọi nhiệm vụ.</li>
+                            <li><span class="text-bg-warning rounded p-1">Phải</span> có trách nhiệm với bản thân và nhiệm vụ của mình.</li>
+                            <li><span class="text-bg-warning rounded p-1">Phải</span> có tinh thần ham học hỏi, tinh thần tự học cao.</li>
+                            <li><span class="text-bg-success rounded p-1">Nên</span> hợp tác, chia sẻ, thẳng thắn, chỉ điểm, góp ý lẫn nhau.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="connect-component-rules-target"></div>
+    <!-- end rules -->
+    <div id="target" class="container text-center text-md-start">
+        <div class="row row-cols-1 row-cols-md-2 justify-content-center">
+            <div class="col">
+                <div id="target-text" class="text-dark">
+                    <h3 style="text-transform:capitalize;">Mục tiêu khi quyết định thành lập Nhóm</h3>
+                    <ul class="text-start">
+                        <li>Cải thiện các kỹ năng trình bày khi làm nhóm.</li>
+                        <li>Trau dồi kỹ năng mềm, học hỏi lẫn nhau.</li>
+                        <li>Cải thiện kỹ năng làm việc nhóm của từng cá nhân</li>
+                        <li>Kiểm soát thời gian và lập kế hoạch nhóm.</li>
+                        <li>Cải thiện kỹ năng giao tiếp thuyết trình</li>
+                        <li>Phát triển điểm mạnh và khác phục điểm yếu.</li>
+                    </ul>
+                </div>
+                <div id="target-text-main">
+                    <h6>Cùng nhau đi lên, cùng nhau học hỏi và phát triển.</h6>
+                </div>
+            </div>
+            <div class="col">
+                <div id="target-img">
+                    <img src="./Smash Illustrations/Ready-to-use Scenes/Svg/Coworking.svg" alt="" class="w-100">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end target -->
+    <div id="connect-component-target-contact"></div>
+
+    <div id="contact" class="container-fluid text-white">
+        <div class="container pt-5">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col">
+                    <div id="rules-img">
+                        <img src="./Smash Illustrations/Ready-to-use Scenes/Svg/Chat.svg" alt="" class="w-100">
+                    </div>
+                </div>
+                <div class="col">
+                    <h3 class="text-center text-capitalize">Liên hệ với chúng tôi</h3>
+                    <form action="" method="post" class="mt-4">
+                        <div class="row row-cols-1 row-cols-md-2 g-3">
+                            <div class="col">
+                                <label for="name">Họ và tên: </label>
+                                <input type="text" name="name" placeholder="Nguyễn Văn A" id="name" class="w-100">
+                            </div>
+                            <div class="col">
+                                <label for="mail">E-Mail: </label>
+                                <input type="text" name="mail" placeholder="example@gamil.com" id="mail" class="w-100">
+                            </div>
+                            <div class="col">
+                                <label for="phone">Số điện thoại: </label>
+                                <input type="text" name="phone-number" placeholder="0856 XXX XXX" id="phone" class="w-100">
+                            </div>
+                            <div class="col">
+                                <label for="phone">Tiêu đề: </label>
+                                <input type="text" name="titleContent" id="title-content" placeholder="Vấn đề chính" class="w-100">
+                            </div>
+                        </div>
+                        
+                        <div class="mt-1 row row-cols-1 g-3">
+                            <div class="col">
+                                <label for="content">Nội dung: </label>
+                                <textarea class="w-100" name="content-comment" id="content" cols="40" rows="6" placeholder="Nội dung cần nhắn nhủ..."></textarea>
+                            </div>
+                            <div class="col p-0">
+                                <div id="btn-submit" class="d-flex mt-3 justify-content-center justify-content-md-end">
+                                    <input type="submit" name="send" value="Gửi" class="w-100 fw-bold">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact -->
+    <div id="refer" class="conatainer-fluid d-flex align-items-center">
+        <div id="carouselReferDocs" class="carousel slide w-100 h-75" data-bs-ride="carousel">
+            <h4 id="title-refer" class="text-center text-white mb-5">Tài Liệu & Blog Tham Khảo Đề Xuất</h4>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./images/CCplusplus.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./images/CCplusplus.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item"> 
+                    <div class="d-flex justify-content-center">
+                        <div class="card" style="width: 20rem;">
+                            <img src="./images/CCplusplus.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Some quick example text to build on the card title and make up the bulk of the card's
+                                    content.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselReferDocs" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselReferDocs" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- end refer -->
+    <div id="footer"></div>
+    <!-- end footer -->
+</body>
+<script src="https://kit.fontawesome.com/e38254d31d.js" crossorigin="anonymous"></script>
+<script src="./js/js-index.js"></script>
+</html>
